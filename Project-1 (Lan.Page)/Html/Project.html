@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Hub</title>
+    <style>
+        * {
+            font-family: cursive;
+            font-weight: bold;
+        }
+
+        body {
+            background: url('../Images/weight-lifting-1284616_1280.jpg');
+            background-size: cover;
+            /* height: 1000px; */
+            background-repeat: no-repeat;
+
+
+        }
+
+
+
+        .left {
+            /* border: 2px solid green; */
+            /* float: left; */
+            margin-left: 5px;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+        }
+
+        .left img {
+            width: 70px;
+
+        }
+
+        .left div {
+            font-size: 17px;
+            text-align: center;
+            line-height: 20px;
+            color: rgb(21, 21, 22);
+            font-weight: bolder;
+
+        }
+
+        .mid {
+            /* border: 2px solid yellow; */
+            display: block;
+            width: 913px;
+            margin: 20px auto;
+
+        }
+
+        .right {
+            /* border: 2px solid red; */
+            display: inline-block;
+            margin-right: 5px;
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+
+        /* .navbar {
+            display: inline-block;
+        } */
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            padding: 35px;
+            margin: auto;
+            color: rgb(27, 25, 25);
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(129, 132, 131);
+        }
+
+        .btn1 {
+            margin: 0px 7px;
+            padding: 5px 10px;
+            background-color: rgb(138, 135, 135);
+            color: rgb(7, 7, 7);
+            cursor: pointer;
+            border: 2px solid rgb(74, 71, 71);
+            border-radius: 7px;
+            font-size: 15px;
+        }
+
+        .btn1:hover {
+            background-color: rgb(76, 80, 80);
+        }
+
+        .container {
+            /* border: 3px solid orange; */
+            display: inline-block;
+            padding: 15px 10px;
+            margin: 100px 75px;
+            border-radius: 17px;
+            float: right;
+        }
+
+        .container h1 {
+            color: rgb(11, 13, 14);
+            border: 3px solid rgb(10, 11, 11);
+            background-color: rgb(100, 105, 105);
+            border-radius: 17px;
+        }
+
+        .formaction {
+            text-align: center;
+
+        }
+
+        .formaction input {
+            text-align: center;
+            display: inline-block;
+            width: 65%;
+            border-radius: 7px;
+            padding: 4px 9px;
+            margin: 4px;
+        }
+
+        button.btn {
+            text-align: center;
+            margin: 4px 67px;
+            width: 295px;
+            border-radius: 6px;
+            padding: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="../Images/download.png">
+            <div>Gym Hub</div>
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for contact details -->
+        <div class="right">
+            <button class="btn1">Call us Now</button>
+            <button class="btn1">Email us</button>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <h1>Join India's Best Gym Hub</h1>
+        <form action="noaction.php">
+            <div class="formaction">
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="formaction">
+                <input type="text" placeholder="Enter Your Age">
+            </div>
+            <div class="formaction">
+                <input type="text" placeholder="Enter Your Gender">
+            </div>
+            <div class="formaction">
+                <input type="text" placeholder="Enter Your Locality">
+            </div>
+            <div class="formaction">
+                <input type="text" placeholder="Enter Your Email ID">
+            </div>
+            <div class="formaction">
+                <input type="text" placeholder="Enter Your Phone No.">
+            </div>
+
+            <button class="btn">Submit Now</button>
+
+        </form>
+
+    </div>
+    <!--     
+    <footer class="icon">
+        <a href="www.instagram.com"><img src="../Images/Instagram Logo.png" alt="Image Loading">
+        </a>
+
+    </footer> -->
+
+
+</body>
+
+</html>
